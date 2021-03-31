@@ -9,9 +9,7 @@
       <div class="wrapper wrapper-header">
         <div class="page-header__logo">
           <a href="index.html" class="page-header__logo-link">
-            <img src="img/logo-mobile.svg" alt="" class="page-header__logo-img">
-          </a>
-          <a href="index.html" class="page-header__logo-site-link">
+            <img src="img/logo_1.svg" alt="" class="page-header__logo-img">
             <img src="/source/img/site_name_1.svg" alt="" class="page-header__logo-site-img">
           </a>
           <div class="buttons">
@@ -46,18 +44,18 @@
             Заполните анкету, и мы подберем
             программу питания для вашего кота
           </p>
-          <form action="" method="post">
+          <form action="#" method="post">
             <fieldset class="form__fieldset">
               <label class="form__label form__label_name" for="name">ИМЯ:*</label>
               <input class="form__input form__input_name" type="text" name="cat name" id="name" placeholder="Барсик">
-              <label class="form__label form__label_weight"for="weight">Вес (кг):*</label>
+              <label class="form__label form__label_weight" for="weight">Вес (кг):*</label>
               <input class="form__input form__input_weight" type="text" name="weight" id="weight" placeholder="7">
               <label class="form__label form__label_age" for="age">Возраст (лет):</label>
               <input class="form__input form__input_age" type="text" name="age" id="age" placeholder="7">
             </fieldset>
             <fieldset class="form__fieldset">
               <input type="radio" name="programm" id="slimming" value="slimming" class="form__radio">
-              <label for="" class="form__label">похудение</label>
+              <label for="slimming" class="form__label">похудение</label>
               <input type="radio" name="programm" id="pro" value="pro" class="form__radio">
               <label for="pro" class="form__label">Набор массы</label>
               <input type="radio" name="programm" id="advice" value="advice" class="form__radio">
@@ -68,8 +66,8 @@
                 (владельца кота)</legend>
               <label for="email" class="form__label">E-mail:*</label>
               <input type="email" name="email" id="email" class="form__input" placeholder="kuklachev@gmail.com">
-              <label for="" class="form__label">Телефон:*</label>
-              <input type="telephone" name="" id="" class="form__input" placeholder="8 (960) 900-60-90">
+              <label for="telephone" class="form__label">Телефон:*</label>
+              <input type="tel" name="telephone" id="telephone" class="form__input" placeholder="8 (960) 900-60-90">
             </fieldset>
             <fieldset class="form__fieldset">
               <legend class="form__legend">Комментарий</legend>
@@ -113,7 +111,7 @@
         <ul class="page-footer__list">
           <li class="page-footer__item">
             <div class="page-footer__logo">
-              <a href="index.html" class="page-footer__logo__link"><img src="img/footer-logo 2.svg" alt="" class="page-footer__logo"></a>
+              <a href="index.html" class="page-footer__logo__link"><img src="img/footer-logo_2.svg" alt="" class="page-footer__logo"></a>
             </div>
           </li>
           <li class="page-footer__item">
@@ -125,8 +123,12 @@
           </li>
           <li class="page-footer__item">
             <div class="page-footer__promotion">
-              <p class="page-footer__promotion__text">HTML Academy</p>
-              <img src="img/htmlacademy.svg" alt="" class="page-footer__promotion__logo" height="34" width="27">
+              <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__promotion_link">
+                <p class="page-footer__promotion__text">HTML Academy</p>
+              </a>
+              <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__promotion_link">
+                <img src="img/htmlacademy.svg" alt="" class="page-footer__promotion__logo" height="34" width="27">
+              </a>
             </div>
           </li>
         </ul>
